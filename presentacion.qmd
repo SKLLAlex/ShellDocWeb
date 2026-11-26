@@ -1,0 +1,160 @@
+---
+title: "ShellDoc Web"
+format:
+  revealjs:
+    theme: dark
+    slide-number: true
+---
+
+## Comando 1: pwd
+
+**Comando ejecutado:**
+
+```bash
+$ pwd
+```
+
+**Salida:**
+
+```text
+/home/estudiante/ShellDocWeb
+```
+
+## Comando 2: whoami
+
+**Comando ejecutado:**
+
+```bash
+$ whoami
+```
+
+**Salida:**
+
+```text
+estudiante
+```
+
+## Comando 3: uname -a
+
+**Comando ejecutado:**
+
+```bash
+$ uname -a
+```
+
+**Salida:**
+
+```text
+Linux ubuntu 6.8.0-45-generic #45-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
+```
+
+## Comando 4: date
+
+**Comando ejecutado:**
+
+```bash
+$ date
+```
+
+**Salida:**
+
+```text
+mar 24 nov 2026 20:45:10 -05
+```
+
+## Comando 5: ls -la
+
+**Comando ejecutado:**
+
+```bash
+$ ls -la
+```
+
+**Salida:**
+
+```text
+total 36
+drwxrwxr-x 2 estudiante estudiante  4096 nov 24 20:45 .
+drwxr-x--- 6 estudiante estudiante  4096 nov 24 20:40 ..
+-rw-rw-r-- 1 estudiante estudiante   200 nov 24 20:42 _quarto.yml
+-rw-rw-r-- 1 estudiante estudiante   517 nov 24 20:42 captura.py
+-rw-rw-r-- 1 estudiante estudiante  1190 nov 24 20:42 estilos.css
+-rw-rw-r-- 1 estudiante estudiante  4680 nov 24 20:45 main.py
+-rw-rw-r-- 1 estudiante estudiante  2065 nov 24 20:42 renderizador.py
+-rw-rw-r-- 1 estudiante estudiante 10352 nov 24 20:42 servidor.py
+-rw-rw-r-- 1 estudiante estudiante  1761 nov 24 20:42 transformador.py
+```
+
+## Comando 6: python3 --version
+
+**Comando ejecutado:**
+
+```bash
+$ python3 --version
+```
+
+**Salida:**
+
+```text
+Python 3.12.3
+```
+
+## Comando 7: quarto --version
+
+**Comando ejecutado:**
+
+```bash
+$ quarto --version
+```
+
+**Salida:**
+
+```text
+1.5.57
+```
+
+## Comando 8: df -h /
+
+**Comando ejecutado:**
+
+```bash
+$ df -h /
+```
+
+**Salida:**
+
+```text
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sda2         40G    12G   26G  32% /
+```
+
+## Comando 9: free -h
+
+**Comando ejecutado:**
+
+```bash
+$ free -h
+```
+
+**Salida:**
+
+```text
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       920Mi       1.9Gi       12Mi       1.0Gi       2.7Gi
+Swap:          2.0Gi          0B       2.0Gi
+```
+
+## Comando 10: echo 'Fin de la sesion'
+
+**Comando ejecutado:**
+
+```bash
+$ echo 'Fin de la sesion'
+```
+
+**Salida:**
+
+```text
+Fin de la sesion
+```
+
